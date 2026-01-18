@@ -41,7 +41,3 @@ Integer to set the number of iterations
 
     #returning new list with adjusted values    
     return values
-
-print(fair_sharer([0, 1000, 800, 0], 1))
-print(fair_sharer([0, 1000, 800, 0], 2))
-print(fair_sharer([0, 1000, 800, 0], 3))
