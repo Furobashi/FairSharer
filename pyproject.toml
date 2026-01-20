@@ -9,7 +9,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 authors = [
-    { name = "Mike Lee", email = "yourname@hs-duesseldorf.de" }
+    { name = "Marc L.", email = "marc.le@study.hs-duesseldorf.de" }
 ]
 classifiers = [
     "Development Status :: 2 - Pre-Alpha",
@@ -24,9 +24,9 @@ classifiers = [
     "Programming Language :: Python :: 3.13",
 ]
 dependencies = []
-description = "package which shares fairly"
+description = "fairsharer"
 license = {file = "LICENSE"}
-name = "fairsharer_package"
+name = "fairsharer"
 readme = {file = "README.md", content-type = "text/markdown"}
 requires-python = ">=3.8"
 version = "0.1.0"
@@ -57,8 +57,8 @@ exclude = '''
 
 [tool.isort]
 profile = "black"
-known_first_party = "fairsharer_package"
-src_paths = ["fairsharer_package", "tests"]
+known_first_party = "fairsharer"
+src_paths = ["fairsharer", "tests"]
 line_length = "120"
 
 [tool.pylint]  # If you opt to use pylint
@@ -75,4 +75,4 @@ line-ending = "lf"
 extend-select = ["E", "I"]
 
 [tool.ruff.lint.isort]
-known-first-party = ["fairsharer_project"]
+known-first-party = ["fairsharer"]

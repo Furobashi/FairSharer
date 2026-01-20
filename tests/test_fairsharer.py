@@ -1,8 +1,6 @@
 """Tests for the fairsharer_package.fair_sharer module.
 """
-import pytest
-
-from fairsharer_package.fair_sharer import fair_sharer
+from fairsharer.fair_sharer import fair_sharer
 
 
 def test_fair_sharer_single_iteration():
