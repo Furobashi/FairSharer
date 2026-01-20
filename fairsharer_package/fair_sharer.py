@@ -24,14 +24,12 @@ Integer to set the number of iterations
         sharing = max_val*share
 
         last_indx = len(values)-1
-        
-        #if max val is at index 0
+
         if max_index == 0: 
             values[last_indx] += sharing
         else:
             values[max_index-1] += sharing        
 
-        #if max val is at the last index
         if max_index == last_indx:
             values[0] += share
         else:
